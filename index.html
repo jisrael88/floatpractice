@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Practice</title>
+    <!-- shiv -->
+    <!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+        /* the styles for the elements */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            background-color: lightblue;
+        }
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 200%;
+            width: 65%;
+            margin: 0 auto;
+            background-color: white;
+            border: 1px solid lightblue;
+        }
+        p{
+            font-size: 75%;
+            margin-top: 1em;
+            margin-left: 1em;
+        }
+        /* the styles for links*/
+        a:link, a:visited {
+            text-decoration: none;
+        }
+        a:hover, a:focus {
+            text-decoration: underline;
+        }
+        /*the styles for the header*/
+        header{
+            text-align: center;
+            font-size: larger;
+            background-image: linear-gradient(lightblue, white);
+            border: 5px solid black;
+        }
+        /* the styles for the main content */
+        main {
+            width: 100%;
+        }
+        img {
+            height: 300px;
+            width: 300px;
+        }
+        .pimgLeft{
+            float: left;
+            margin-top: 1em;
+            margin-left: 1em;
+            border: 7px solid black;
+        }
+        .pimgRight {
+            float: right;
+            margin-bottom: 1em;
+            margin-right: 1em;
+            border: 7px solid black;
+        }
+        section {
+            clear: both;
+            padding-bottom: 1.5em;
+        }
+        section p {
+            padding: 2em;
+            margin-left: 5em;
+        }
+        /* the styles for the footer */
+        footer {
+            clear: both;
+            padding: 10px;
+            font-size: 80%;
+            font-variant: small-caps;
+            background-color: lightblue;
+            color: white;
+            text-align: center;
+            border: 5px solid black;
+        }
+        footer p {
+            font-size: 75%;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Float Practice</h1>
+    </header>
+    <main>
+        <section>
+            <img class="pimgLeft" src="images/1.JPG">
+            <p>
+                Ryelee sitting at the top of the stairs waiting for people to get home.
+            </p>
+        </section>
+        <section>
+            <img class="pimgRight" src="images/2.JPG">
+            <p>
+                Ryelee wearing a jacket after going outside.  
+            </p>
+        </section>
+        <section>
+            <img class="pimgLeft" src="images/3.JPG">
+            <p>
+                Ryelee wearing a sweater because it was cold outside.
+            </p>
+        </section>
+        <section>
+            <img class="pimgRight" src="images/4.JPG">
+            <p>
+                Ryelee outside waiting for the ball to be thrown. 
+        </section>
+        <section>
+            <img class="pimgLeft" src="images/5.JPG">
+            <p>
+                Ryelee laying down outside after playing with her ball.
+            </p>
+        </section>
+        <section>
+            <img class="pimgRight" src="images/6.JPG">
+            <p>
+                Ryelee sitting on a chair.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2021 Julia Israel</p> 
+    </footer>
+</body>
+</html>
